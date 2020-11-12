@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TARIQ'S MALL</title>
+    <link rel="stylesheet" href="css/index.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="mall-content">
+        <h1 class="header-text">
+            Welcome to TARIQ'S Mall
+        </h1>
+        <h5>we do well to serve you</h5>
+       
+
+        <form>
+            <h1 class="form-text">Before you start shopping, perform some security</h1>
+            <div id="error_msg"></div>
+            <div class="name-content">
+                <label for="name">Name:</label>
+                <input id="lname" type="text" required />
+            </div>
+            <div class="name-content">
+                <label for="name">Age:</label>
+                <input id="age" type="number"  required />
+            </div>
+            <div class="name-content">
+                <label for="name">Are you on face mask?</label>
+                <select name="mask" id="face-mask">
+                    <option value="YES">Yes</option>
+                    <option value="NO">No</option>
+                </select>
+            </div>
+            <div class="btn-content">
+                <button class="submit" >Grant Access </button>
+            </div>
+            <hr>
+            <div class="count">
+            <h4 id="total">Total visitor: 0 </h4>
+               <h4 class="allowed">Allowed visitor: 0 </h4>
+               <h4 class="denied">Denied visitor: 0 </h4> 
+            </div>
+
+          <!---  <div class="btn-content">
+                <input class="submit" type="button" onclick="view" value="View Vistor">
+            </div>-->
+        </form>
+        
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
