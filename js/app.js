@@ -26,7 +26,7 @@ function buttonClick(e){
         error_msg.style.padding = "10px";
      //  alert('Name and age must not be blank')
        error_msg.style.padding = "10px";
-       text = "Name and ag cannot be blank"
+       text = "Name and age cannot be blank"
        error_msg.innerHTML = text;
 
        //check if age is less than 12
